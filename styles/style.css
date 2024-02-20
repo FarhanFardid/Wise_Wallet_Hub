@@ -8,5 +8,10 @@
     background-image: url('../Images/income-1.png');
     background-position: center;
     background-size: cover;
+}
 
+.expense{
+    background-image: url('../Images/expenses-1.jpg');
+    background-position: center;
+    background-size: cover;
 }
