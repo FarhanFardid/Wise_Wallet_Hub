@@ -21,6 +21,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
+}
 
-
+.balance{
+    background-image: url('../Images/dollar-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
