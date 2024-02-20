@@ -3,3 +3,10 @@
     background-image: url('../Images/cover-2.png');
     background-blend-mode: multiply;
 }
+
+.income{
+    background-image: url('../Images/income-1.png');
+    background-position: center;
+    background-size: cover;
+
+}
