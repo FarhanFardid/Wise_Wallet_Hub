@@ -1,1 +1,5 @@
 /* Customized CSS File */
+.header{
+    background-image: url('../Images/cover-2.png');
+    background-blend-mode: multiply;
+}
