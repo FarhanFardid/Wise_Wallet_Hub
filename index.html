@@ -26,12 +26,12 @@
 
 <section>
     <div class="container mx-auto income w-full  h-auto p-2 lg:p-5">
-        <h3 class="text-2xl lg:text-4xl font-bold text-center p-2 lg:p-7 text-slate-950 bg-gray-400 bg-opacity-45">Income </h3>
+        <h3 class="text-2xl lg:text-4xl font-bold text-center p-2 lg:p-7 text-slate-950 bg-gray-400 bg-opacity-45">Monthly Income </h3>
         <p class="text-center p-2 lg:p-5  text-sm lg:text-xl text-white bg-slate-950 bg-opacity-55" >Strive for abundance, as your income is not just a number but a reflection of your determination and potential for financial success.</p>
 
-        <div class="w-56  lg:w-72 mx-auto p-3 lg:p-8 text-center ">
+        <div class="w-64  lg:w-72 mx-auto p-3 lg:p-8 text-center ">
             <label for="income" class="font-bold  lg:text-xl lg:my-6">Your Income ($)</label>
-            <input class="w-full h-7 lg:h-9 mt-3 lg:mt-5 bg-slate-800 text-white rounded-md" type="number" name="income" id="income" placeholder=" Enter Income Amount ">
+            <input class="w-full h-7 lg:h-9 mt-3 lg:mt-5 bg-slate-800 text-white rounded-md" type="number" name="income" id="income" placeholder="        Enter Income Amount ">
         </div>
 
     </div>
@@ -46,20 +46,20 @@
 
 <section>
     <div class="container mx-auto expense w-full  h-auto lg:p-5 p-2">
-        <h3 class="text-2xl lg:text-4xl font-bold text-center p-2 lg:p-7 text-red-800 bg-white bg-opacity-50">Expenses </h3>
+        <h3 class="text-2xl lg:text-4xl font-bold text-center p-2 lg:p-7 text-red-800 bg-white bg-opacity-50">Monthly Expenses </h3>
         <p class="text-center p-2 lg:p-5  text-sm lg:text-xl text-white  bg-slate-950 bg-opacity-75" >Transform your expenses into intentional choices, each expenditure a step towards a mindful and purposeful financial journey.</p>
      <div class="grid lg:grid-cols-3">
-        <div class="w-56  lg:w-72 mx-auto p-3 lg:p-8 text-center ">
+        <div class="w-64  lg:w-72 mx-auto p-3 lg:p-8 text-center ">
             <label for="food" class="font-bold  lg:text-xl lg:my-6">Food Expense ($)</label>
-            <input class="w-full h-7 lg:h-9 mt-3 lg:mt-5 bg-slate-800 text-white rounded-md" type="number" name="food" id="food" placeholder=" Food Expense Amount ">
+            <input class="w-full h-7 lg:h-9 mt-3 lg:mt-5 bg-slate-800 text-white rounded-md" type="number" name="food" id="food" placeholder="        Food Expense Amount ">
         </div>
-        <div class="w-56  lg:w-72 mx-auto p-3 lg:p-8 text-center ">
+        <div class="w-64  lg:w-72 mx-auto p-3 lg:p-8 text-center ">
             <label for="bills" class="font-bold  lg:text-xl lg:my-6">Bills Payment ($)</label>
-            <input class="w-full h-7 lg:h-9 mt-3 lg:mt-5 bg-slate-800 text-white rounded-md " type="number" name="bills" id="bills" placeholder=" Bills Payment Amount ">
+            <input class="w-full h-7 lg:h-9 mt-3 lg:mt-5 bg-slate-800 text-white rounded-md " type="number" name="bills" id="bills" placeholder="        Bills Payment Amount ">
         </div>
-        <div class="w-56  lg:w-72 mx-auto p-3 lg:p-8 text-center ">
+        <div class="w-64  lg:w-72 mx-auto p-3 lg:p-8 text-center ">
             <label for="transport" class="font-bold  lg:text-xl lg:my-6">Transport Expense ($)</label>
-            <input class="w-full h-7 lg:h-9 mt-3 lg:mt-5 bg-slate-800 text-white rounded-md " type="number" name="transport" id="transport" placeholder=" Transport Expense Amount ">
+            <input class="w-full h-7 lg:h-9 mt-3 lg:mt-5 bg-slate-800 text-white rounded-md " type="number" name="transport" id="transport" placeholder="    Transport Expense Amount ">
         </div>
 
      </div>
@@ -74,6 +74,30 @@
 
 
         <!-- Expenses Section Ends -->
+
+         <!-- Savings Section Starts -->
+
+<section>
+    <div class="container mx-auto saving w-full  h-auto p-2 lg:p-16">
+        <h3 class="text-2xl lg:text-4xl font-bold text-center p-2 lg:p-7 text-green-900 bg-gray-400 bg-opacity-45">Monthly Savings </h3>
+        <p class="text-center p-2 lg:p-5  text-sm lg:text-xl text-white bg-slate-950 bg-opacity-55" >Every dollar saved is a seed planted for a future of financial freedom and empowerment.</p>
+
+        <div class="w-64  lg:w-72 mx-auto p-3 lg:p-10 text-center ">
+            <label for="income" class="font-bold  lg:text-xl lg:my-6">Saving Percentage (%)</label>
+            <input class="w-full h-7 lg:h-9 mt-3 lg:mt-5 bg-slate-800 text-white rounded-md" type="number" name="savings" id="savings" placeholder="    Enter Saving Percentage " min="1" max="50">
+        </div>
+
+        <div class="text-center"> <button id="savings-btn" class="text-center border-2 rounded-lg bg-green-950 hover:bg-green-800 text-white p-2 my-6 text-sm  lg:p-3  font-bold">Calculate Savings</button></div>
+        <div class="bg-slate-800 p-2 lg:p-4 rounded-md">
+           <h3 class="text-lg lg:text-2xl text-center font-extrabold text-green-600 ">Total Monthly Savings ($): <span id="total-savings">  </span> </h3>
+        </div>
+
+    </div>
+</section>
+
+
+        <!-- Savings Section Ends -->
+        
   
 </body>
 </html>
