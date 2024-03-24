@@ -30,5 +30,6 @@ Usage:
 
 Technologies Used:
 
-#HTML/CSS: For user interface design and styling.
-#JavaScript: For dynamic user interaction and calculations.
+1. HTML/CSS: For user interface design and styling.
+
+2. JavaScript: For dynamic user interaction and calculations.
