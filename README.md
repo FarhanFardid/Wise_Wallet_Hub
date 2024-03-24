@@ -1,4 +1,4 @@
-Wise Wallet Hub
+# Wise Wallet Hub
 
 Wise Wallet Hub is a financial management tool designed to help users track their expenses, savings, and overall budget. Users can enter their salary, categorize their expenses, calculate total costs, and input their savings percentage. The tool then displays the savings amount and the remaining balance after expenses and savings deductions.
 
