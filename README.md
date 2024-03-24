@@ -1,8 +1,8 @@
 # Wise Wallet Hub
 
-Wise Wallet Hub is a financial management tool designed to help users track their expenses, savings, and overall budget. Users can enter their salary, categorize their expenses, calculate total costs, and input their savings percentage. The tool then displays the savings amount and the remaining balance after expenses and savings deductions.
+## Wise Wallet Hub is a financial management tool designed to help users track their expenses, savings, and overall budget. Users can enter their salary, categorize their expenses, calculate total costs, and input their savings percentage. The tool then displays the savings amount and the remaining balance after expenses and savings deductions.
 
-Features:
+### Features:
 
 i. Salary Entry: Users can input their monthly salary or income.
 
@@ -14,7 +14,7 @@ iv. Savings Percentage: Users can specify their savings percentage to allocate a
 
 v. Savings and Remaining Balance: The tool displays the calculated savings amount and the remaining balance after deducting expenses and savings.
 
-Usage:
+### Usage:
 
 *Access the Wise Wallet Hub tool through the provided link.
 
@@ -28,7 +28,7 @@ Usage:
 
 *Review the displayed information to manage your budget effectively.
 
-Technologies Used:
+### Technologies Used:
 
 1. HTML/CSS: For user interface design and styling.
 
